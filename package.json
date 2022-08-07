@@ -1,0 +1,19 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "tugas membuat Bookshelf api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./src/sarver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aji Darmansyah",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.3.4"
+  }
+}
